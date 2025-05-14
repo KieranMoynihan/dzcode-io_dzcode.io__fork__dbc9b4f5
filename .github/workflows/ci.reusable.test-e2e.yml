@@ -13,6 +13,7 @@ jobs:
     runs-on: ${{ inputs.os }}
     strategy:
       matrix:
+        # TODO: Add firefox and edge back in when we migrate to Playwright
         browser: [chrome]
       fail-fast: false
 
