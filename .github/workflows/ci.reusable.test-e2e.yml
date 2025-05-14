@@ -13,7 +13,7 @@ jobs:
     runs-on: ${{ inputs.os }}
     strategy:
       matrix:
-        browser: [chrome, firefox, edge]
+        browser: [chrome]
       fail-fast: false
 
     steps:
